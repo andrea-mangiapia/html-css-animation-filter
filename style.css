@@ -1,61 +1,60 @@
+/* ESERCIZIO 1 */
 .ex-1-square {
     width: 100px;
     height: 100px;
     border: 1px solid red;
     transition: all 2s;
 }
-
-/* Soluzione Esercizio 1 */
+/* Soluzione 1 */
 .ex-1-square:hover {
     background-color: red;
 }
 
+/* ESERCIZIO 2 */
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
     transition: all 3s;
 }
-
-/* Soluzione Esercizio 2 */
+/* Soluzione 2 */
 .ex-2-square:active {
     width: 100%;
 }
 
+/* ESERCIZIO 3 */
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
     transition: all 1s;
 }
-
-/* Soluzione Esercizio 3 */
+/* Soluzione 3 */
 .ex-3-square:hover {
     border-radius: 50%;
 }
 
+/* ESERCIZIO 4 */
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
     transition: all 3s;
 }
-
-/* Soluzione Esercizio 4 */
+/* Soluzione 4 */
 .ex-4-square:hover {
     background: none;
 }
 
+/* ESERCIZIO 5 */
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
     transition: all 2s;
-
 }
-
-/* Soluzione Esercizio 5 */
+/* Soluzione 5 */
 .ex-5-square:hover {
     transform: scale(2);
 }
@@ -63,20 +62,54 @@
     transform: scale(1);
 }
 
+/* ESERCIZIO 6 - 7- 8 */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
+/* Soluzione 6 */
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+/* Soluzione 7 */
+.ex-7-img {
+    transition: all 2s;
+}
+.ex-7-img:hover {
+    filter: grayscale(100%) sepia(50%);
+}
+/* Soluzione 8 */
+.ex-8-img {
+    transition: all 2s;
+}
+.ex-8-img:hover {
+    border-radius: 20px;
+    filter: grayscale(80%) sepia(20%);
+}
 
+/* ESERCIZIO 9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 2s;
 }
+/* Soluzione 9 */
+.ex-9-img:hover {
+    border-radius: 20px;
+    transform: scale(1.5);
+    filter: grayscale(80%) sepia(20%);
+}
+
+/* ESERCIZIO 10 */
 .ex-10-icon {
     font-size: 60px;
 }
+
+/* ESERCIZIO 11 */
 .ex-11-icon {
     font-size: 60px;
 }
+
+/* ESERCIZIO 12 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
